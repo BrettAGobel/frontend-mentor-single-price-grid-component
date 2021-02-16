@@ -1,4 +1,9 @@
+ul, li {
+    list-style: none;
+    color: white;
+    padding: 0;
 
+}
 
 body {
     background-color: lightgray;
@@ -24,30 +29,6 @@ h2 + span {
 h3{
     color: white;
 }
-
-.subscription {
-    /*background-color:  #2bb3b1;*/
-    opacity: 50%;
-
-    padding: 15px;
-}
-
-.why-us {
-
-    background-color: #4abebd;
-    padding: 15px;
-
-}
-
-.top {
-    /*background-color: white;*/
-    border-radius: 20px;
-    padding: 15px;
-
-
-
-}
-
 .price-card {
     margin: 10vh 10vh;
     border-radius: 20px;
@@ -57,10 +38,58 @@ h3{
 
 }
 
+.subscription {
+
+
+
+    padding: 25px;
+}
+
+.why-us {
+
+    /*background-color: #4abebd;*/
+    padding: 25px;
+
+
+}
+
+.top {
+    /*background-color: white;*/
+    /*border-radius: 20px;*/
+    padding: 15px;
+
+
+
+}
+
+
+
 .bottom {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color:  #2bb3b1;
 }
 
+button {
+    display: block;
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background-color: greenyellow;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: Arial;
+    font-size: 1.1em;
+    border-radius: 1em;
+
+
+}
+
+p > span {
+    font-size: 2em;
+}
+
+p{
+    color: white;
+}
 
