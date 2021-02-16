@@ -1,0 +1,43 @@
+
+
+body {
+    background-color: lightgray;
+}
+
+span {
+    color: white;
+}
+
+h1 {
+    color: #2bb3b1;
+}
+
+h2 {
+    color: #c2d36b
+}
+
+h2 + span {
+    color: grey;
+}
+
+
+h3{
+    color: white;
+}
+
+.subscription {
+    background-color:  #2bb3b1;
+}
+
+.why-us {
+    background-color: #4abebd;
+}
+
+.community {
+    background-color: white;
+}
+
+.price-card {
+    margin: 10vh 10vh;
+    border-radius: 8em;
+}
